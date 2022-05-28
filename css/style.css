@@ -1,0 +1,36 @@
+#navbar{
+  padding: 20px 10px;
+}
+main{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+}
+#equipe{
+  padding: 20px 15px;
+  padding-bottom: 45px;
+  background-color: #fff;
+}
+#equipe h3{
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+#servicos{
+  padding: 20px 15px;
+  padding-bottom: 45px;
+  background-color: rgb(240, 240, 240);
+}
+#servicos h3{
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+#local{
+  padding: 20px 15px;
+  background-color: #fff;
+}
+#local h3{
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
