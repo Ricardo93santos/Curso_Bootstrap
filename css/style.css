@@ -1,5 +1,20 @@
+*{
+  --color-primary: #f8aebf;
+  --color-secondary: #fff;
+  --color-ternary: #f87e89;
+}
+.bg-color-primary{
+  background-color: var(--color-primary);
+}
+.bg-color-secondary{
+  background-color: var(--color-secondary);
+}
+
 #navbar{
   padding: 20px 10px;
+}
+#navbar li a{
+  color: var(--color-secondary);
 }
 main{
   align-items: center;
@@ -8,29 +23,25 @@ main{
   margin: 0 auto;
   position: relative;
 }
-#equipe{
-  padding: 20px 15px;
-  padding-bottom: 45px;
-  background-color: #fff;
+#home h1{
+  color: var(--color-ternary);
+  font-weight: 700;
 }
-#equipe h3{
+#home, #equipe, #servicos, #local, #carrosel{
+  margin: 25px auto;
+  padding-bottom: 20px;
+}
+#equipe h3, #servicos h3, #local h3{
   padding-bottom: 30px;
   padding-top: 20px;
 }
-#servicos{
-  padding: 20px 15px;
-  padding-bottom: 45px;
-  background-color: rgb(240, 240, 240);
+.link-contato{
+  text-decoration: none;
+  color: var(--color-secondary);
+  padding: 16px 12px;
+  font-weight: 700;
 }
-#servicos h3{
-  padding-bottom: 30px;
-  padding-top: 20px;
-}
-#local{
-  padding: 20px 15px;
-  background-color: #fff;
-}
-#local h3{
-  padding-bottom: 30px;
-  padding-top: 20px;
+.link-contato:hover{
+  text-decoration: none;
+  color: var(--color-primary);
 }
