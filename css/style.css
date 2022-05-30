@@ -28,6 +28,20 @@
   height: 100%;
   border-radius: 50%;
 }
+.ft-ct-tl-1{
+  color: var(--color-ternary);
+  font-weight: 700;
+}
+.m-img-width{
+  max-width: 100%;
+}
+.link-style{
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+.link-style:hover{
+  color: var(--color-secondary);
+}
 #navbar{
   padding: 20px 10px;
 }
@@ -41,17 +55,13 @@ main{
   margin: 0 auto;
   position: relative;
 }
-.ft-ct-tl-1{
-  color: var(--color-ternary);
-  font-weight: 700;
-}
 #home, #equipe, #servicos, #local, #carrosel{
   margin: 25px auto;
   padding-bottom: 20px;
 }
 #equipe h3, #servicos h3, #local h3{
   padding-bottom: 30px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .link-contato{
   text-decoration: none;
@@ -62,7 +72,4 @@ main{
 .link-contato:hover{
   text-decoration: none;
   color: var(--color-primary);
-}
-.m-img-width{
-  max-width: 100%;
 }
